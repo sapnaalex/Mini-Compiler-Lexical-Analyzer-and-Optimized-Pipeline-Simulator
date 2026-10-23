@@ -8,13 +8,17 @@ A runnable, standard-library-only Python project that connects three core comput
 python main.py
 ```
 
-`main.py` runs a deterministic demonstration immediately: it prints lexical tokens, performs symbol lookups, and prints a cycle-by-cycle pipeline schedule. Python 3.10 or newer is recommended (the code uses modern type annotations). No package installation is required.
+`main.py` runs a deterministic terminal demonstration immediately: it prints lexical tokens, performs symbol lookups, and prints a cycle-by-cycle pipeline schedule. Launch the interactive browser interface with `streamlit run app.py`. Python 3.10 or newer is recommended (the code uses modern type annotations). Install Streamlit with `python -m pip install -r requirements.txt` before starting the web app.
 
 To verify the implementation:
 
 ```console
 python -m unittest -v
 ```
+
+## Streamlit interface
+
+`app.py` provides a source-code text area and tokenization button, a comma-separated symbol-query input and binary-search results, plus a pipeline simulation button with a configurable stall-penalty multiplier. Each action displays results in the browser while reusing the implementations from `main.py`.
 
 ## Course mapping
 
