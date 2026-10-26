@@ -2,8 +2,8 @@
 
 A runnable, standard-library-only Python project that connects three core computer science subjects through small, inspectable implementations.
 
-* **GitHub Repository:** [sapnaalex/Mini-Compiler-Lexical-Analyzer-and-Optimized-Pipeline-Simulator](https://github.com/sapnaalex/Mini-Compiler-Lexical-Analyzer-and-Optimized-Pipeline-Simulator)
-* **Live Deployed App:** [Streamlit Application Link](https://mini-compiler-lexical-analyzer-and-optimized-pipeline-simulator.streamlit.app/)
+- **GitHub Repository:** [sapnaalex/Mini-Compiler-Lexical-Analyzer-and-Optimized-Pipeline-Simulator](https://github.com/sapnaalex/Mini-Compiler-Lexical-Analyzer-and-Optimized-Pipeline-Simulator)
+- **Live Deployed App:** [Streamlit Application Link](https://mini-compiler-lexical-analyzer-and-optimized-pipeline-simulator.streamlit.app/)
 
 ---
 
@@ -54,4 +54,3 @@ result = simulate_pipeline([
     Instruction("LOAD R1", "R1"),
     Instruction("ADD R2, R1", "R2", ("R1",)),
 ])
-```
