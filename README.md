@@ -1,4 +1,4 @@
-# Integrated Technical Micro-Project
+# Mini-Compiler Lexical Analyzer and Optimized Pipeline Simulator
 
 A runnable, standard-library-only Python project that connects three core computer science subjects through small, inspectable implementations.
 
