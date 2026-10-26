@@ -25,12 +25,12 @@ st.markdown(
     html, body, [class*="st-"] { font-family:Inter,'Segoe UI',sans-serif; }
     .stApp { background:linear-gradient(180deg,#f4f7fc 0%,#fff 90%); }
     .block-container { max-width:1380px; padding-top:4.5rem; padding-bottom:3rem; }
-    h1,h2,h3 { color:var(--navy); letter-spacing:-.035em; }
-    h1 { font-weight:800; line-height:1.12; }
-    .kicker,.module-label { color:var(--blue); font-weight:700; text-transform:uppercase; }
-    .kicker { font-size:.78rem; letter-spacing:.14em; margin-bottom: 0.5rem; display: block; }
+    h1 { color:#10233f !important; font-weight:800; line-height:1.12; }
+    h2, h3 { color:#10233f !important; }
+    .kicker,.module-label { color:#2563eb !important; font-weight:700; text-transform:uppercase; }
+    .kicker { font-size:.78rem; letter-spacing:.14em; margin-bottom:0.5rem; display:block; }
     .module-label { font-size:.75rem; letter-spacing:.12em; }
-    .hero-copy { color:#52647d; font-size:1.03rem; line-height:1.6; }
+    .hero-copy { color:#334155 !important; font-size:1.03rem; line-height:1.6; }
     div[data-testid="stVerticalBlockBorderWrapper"] { background:#fff; border:1px solid #dce5f0; border-radius:18px; box-shadow:0 10px 28px rgba(16,35,63,.055); }
     div.stButton>button { border:1px solid #1d4ed8; border-radius:10px; background:linear-gradient(135deg,#2563eb,#1d4ed8); color:white; font-weight:650; transition:transform .15s,box-shadow .15s; }
     div.stButton>button:hover { border-color:#1e40af; background:#1e40af; color:white; transform:translateY(-1px); box-shadow:0 7px 16px #2563eb38; }
